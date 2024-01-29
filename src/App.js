@@ -7,7 +7,9 @@ function App() {
     <>
     <Navbar title="CR7" aboutLink="Ye about ka button hai, or isme prop types use kiya hai"/>
     {/* <Navbar/> */}
-    <TextForm/>
+    <div className="container">
+      <TextForm/>
+    </div>
     </>     
   );
 }
